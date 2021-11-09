@@ -176,7 +176,6 @@ input, select, textarea {
 
 		h1 a {
 			color: inherit;
-		
 		}
 
 		@media screen and (max-width: 736px) {
@@ -202,7 +201,6 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
-		text-align: center;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2598,7 +2596,6 @@ input, select, textarea {
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
-			
 			}
 
 				.tiles article > .image img {
@@ -2606,7 +2603,7 @@ input, select, textarea {
 					width: 100%;
 				}
 
-				/*.tiles article > .image:before {
+				.tiles article > .image:before {
 					pointer-events: none;
 					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
 					-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
@@ -2622,7 +2619,7 @@ input, select, textarea {
 					opacity: 1.0;
 					z-index: 1;
 					opacity: 0.8;
-				}*/
+				}
 
 				.tiles article > .image:after {
 					pointer-events: none;
@@ -2674,7 +2671,7 @@ input, select, textarea {
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #7e81e8;
+				color: #ffffff;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
@@ -2685,7 +2682,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #fff !important;
+					color: #ffffff !important;
 				}
 
 				.tiles article > a h2 {
@@ -2833,7 +2830,7 @@ input, select, textarea {
 
 	#header {
 		padding: 8em 0 0.1em 0 ;
-		}
+	}
 
 		#header .logo {
 			display: block;
